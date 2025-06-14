@@ -29,7 +29,7 @@ int win_to_msys2(char *path, DWORD len) {
 
 int main(int argc, char **argv) {
     if (argc != 3) {
-        fprintf(stderr, "Error: Bad number of arguments! Expected 3, got %d\n", argc - 1);
+        fprintf(stderr, "Error: Bad number of arguments! Expected 2, got %d\n", argc - 1);
         return 1;
     }
     char *in     = NULL, *out     = NULL,
